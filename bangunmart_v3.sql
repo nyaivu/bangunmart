@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 29, 2025 at 06:27 PM
+-- Generation Time: Dec 29, 2025 at 06:34 PM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -209,18 +209,18 @@ CREATE TABLE `pegawai` (
 --
 
 INSERT INTO `pegawai` (`id_pegawai`, `nama_pegawai`, `password`, `jabatan`, `shift`, `aktif`, `remember_token`) VALUES
-(1, 'Admin Utama', '$2y$12$bBUDQ00lmgwNShkQzPDjQ.TAotoYayeZCe.ZdxL/Sfusg2F86eWoq', 'admin', 'pagi', 1, NULL),
-(2, 'Kasir Budi', '$2y$12$OQchrNV2A.AZf5qcWf6yF.h7p8H.xbMFEj8Soco9gRqFIqTaEFovO', 'kasir', 'siang', 1, NULL),
-(3, 'Staf 1', '$2y$12$cmGHNJSycHaDRezQJ41yiut8RAlgJcWzNvHYucRELgjIKmou1.2nW', 'gudang', 'siang', 1, NULL),
-(4, 'Staf 2', '$2y$12$3cTigoLc.9zjUEUsgt6xg.gajuPt3uwYuvju4twz86Zrog7NuObbm', 'kasir', 'siang', 1, NULL),
-(5, 'Staf 3', '$2y$12$iy3iT4TCLlIYcjiZuQ3b0uYTFPy5ZYcCdnUC6KjpT/dEbKMWTiaWW', 'admin', 'pagi', 1, NULL),
-(6, 'Staf 4', '$2y$12$1VrIqROSeVhqhPiNZ5ZwCepK91kSIi6vMk1Dt53Duo9346G2IBGiS', 'admin', 'pagi', 1, NULL),
-(7, 'Staf 5', '$2y$12$LXinztpcrjcMLGGJXAJS1.IijjVxbx5S..nHpGOAplvN80ibPMRvi', 'kasir', 'malam', 1, NULL),
-(8, 'Staf 6', '$2y$12$/gKtzK/QBuIJwwDViZAgiOsdmkuKIORdukLuePK08VAIb32Lut.r2', 'kasir', 'malam', 1, NULL),
-(9, 'Staf 7', '$2y$12$RfdWHtOI2s8JzpP3vgr0xebtX8EdsoOe8gGwg/ZynV9ThqGDjBdtW', 'kasir', 'malam', 1, NULL),
-(10, 'Staf 8', '$2y$12$ixRYqyzX9d/ImLlr29B1TuLvGa1GHpQt.OLbY6vajBNvvUcEYgUA2', 'kasir', 'malam', 1, NULL),
-(11, 'Staf 9', '$2y$12$nmuTCkQwktFyQGGI2s5gEu2SyMVpZL1JQqJZiEd6uJzSWOroowxou', 'gudang', 'siang', 1, NULL),
-(12, 'Staf 10', '$2y$12$XKUqca66X3wl1yWTSL8O2Ol2D/DWhXChUvehIL9mVMNFMH7C4mofy', 'gudang', 'siang', 1, NULL);
+(1, 'Admin Utama', '$2y$12$TCcr/JxxUmd6M/VIUgiwwOcJ/jFvT/og0GiFhIl62mpEglH5cJrmm', 'admin', 'pagi', 1, NULL),
+(2, 'Kasir Budi', '$2y$12$ulTH7wa.SHo2nCg2hkI7ueCsEV9Kz0KtQOuMX0.7gjsEKs3f9brrG', 'kasir', 'siang', 1, NULL),
+(3, 'Staf 1', '$2y$12$.r7nplDd2QnlZZgd.tv47erVPLMZxF3mkE3EVhits9FOYoLfg3Dp2', 'admin', 'siang', 1, NULL),
+(4, 'Staf 2', '$2y$12$Mm.kkrESuWn0pNFDn0BxqOqdkDEs0ZEIQnCYDFzh6TnN0WhKsgXbK', 'gudang', 'siang', 1, NULL),
+(5, 'Staf 3', '$2y$12$WTdYXHM5qFTq9EhCoMeiEO9CLpzkgIYMHGUjcw06DhFC3Mji0Sxma', 'admin', 'pagi', 1, NULL),
+(6, 'Staf 4', '$2y$12$jBGJQ8OKSdb5GEIx2WSNT.pD7gM5tNPOCgvhR8RHFncV7DRTEBbom', 'gudang', 'malam', 1, NULL),
+(7, 'Staf 5', '$2y$12$3AM2iIRM1xp94DNbADet0eh0oJueg3r3E.TCbfF1foJRm/hkcUboS', 'gudang', 'siang', 1, NULL),
+(8, 'Staf 6', '$2y$12$qhEoXg6/XM0RGuC2OznsneWSNgrbpYdL8h8nj02iwbuztdLMT67xu', 'admin', 'siang', 1, NULL),
+(9, 'Staf 7', '$2y$12$Q6sZ/UV6nFsW8CmOYVUL6uH.h97Zsl8U9QrNLKy6oFIxIx8Dwwen.', 'kasir', 'malam', 1, NULL),
+(10, 'Staf 8', '$2y$12$Ox6.EJrDxUp0p3GzSzOykOazQzIdy5DtuqbONgX0O8e6WFyO7ZU92', 'kasir', 'malam', 1, NULL),
+(11, 'Staf 9', '$2y$12$YCsISVis5jmDIX91UnhVZORnAZsD8mtcjD6/rcZJt71J3NcuiaEbq', 'admin', 'siang', 1, NULL),
+(12, 'Staf 10', '$2y$12$t1t4ZOH6BK25WE1FQQ6Dvuh6ApAl1/P3CFPIT3vm.9QU87jeJNEWS', 'gudang', 'malam', 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -242,16 +242,16 @@ CREATE TABLE `pelanggan` (
 --
 
 INSERT INTO `pelanggan` (`id_pelanggan`, `nama_pelanggan`, `no_hp`, `tipe`, `kota`, `tgl_daftar`) VALUES
-(1, 'Budi Santoso', '085220590238', 'umum', 'Palangka Raya', '2025-12-29'),
-(2, 'CV Maju Jaya Konstruksi', '085277108554', 'proyek', 'Banjarmasin', '2025-12-29'),
-(3, 'Andi Wijaya', '085258110209', 'member', 'Palangka Raya', '2025-12-29'),
-(4, 'PT Bangun Rumah Sejahtera', '085291103122', 'proyek', 'Sampit', '2025-12-29'),
-(5, 'Siti Aminah', '085262283785', 'umum', 'Palangka Raya', '2025-12-29'),
-(6, 'Haji Mansyur', '085214274196', 'member', 'Kuala Kapuas', '2025-12-29'),
-(7, 'Dekor Interior Mandiri', '085224001412', 'proyek', 'Palangka Raya', '2025-12-29'),
-(8, 'Rizky Pratama', '085250914779', 'umum', 'Palangka Raya', '2025-12-29'),
-(9, 'Member Setia BangunMart', '085211618666', 'member', 'Palangka Raya', '2025-12-29'),
-(10, 'Toko Besi Berkah', '085220443139', 'umum', 'Pangkalan Bun', '2025-12-29');
+(1, 'Budi Santoso', '085288749304', 'umum', 'Palangka Raya', '2025-12-29'),
+(2, 'CV Maju Jaya Konstruksi', '085226379368', 'proyek', 'Banjarmasin', '2025-12-29'),
+(3, 'Andi Wijaya', '085240912776', 'member', 'Palangka Raya', '2025-12-29'),
+(4, 'PT Bangun Rumah Sejahtera', '085227652755', 'proyek', 'Sampit', '2025-12-29'),
+(5, 'Siti Aminah', '085226137720', 'umum', 'Palangka Raya', '2025-12-29'),
+(6, 'Haji Mansyur', '085256086017', 'member', 'Kuala Kapuas', '2025-12-29'),
+(7, 'Dekor Interior Mandiri', '085243164620', 'proyek', 'Palangka Raya', '2025-12-29'),
+(8, 'Rizky Pratama', '085279159837', 'umum', 'Palangka Raya', '2025-12-29'),
+(9, 'Member Setia BangunMart', '085285835143', 'member', 'Palangka Raya', '2025-12-29'),
+(10, 'Toko Besi Berkah', '085239923730', 'umum', 'Pangkalan Bun', '2025-12-29');
 
 -- --------------------------------------------------------
 
@@ -275,9 +275,9 @@ CREATE TABLE `pembayaran` (
 --
 
 INSERT INTO `pembayaran` (`id_bayar`, `id_nota`, `metode`, `jumlah_tagihan`, `jumlah_bayar`, `kembalian`, `tgl_bayar`, `status_bayar`) VALUES
-(1, 1, 'cash', 540000.00, 600000.00, 60000.00, '2025-12-30 02:24:14', 'berhasil'),
-(2, 2, 'transfer', 950000.00, 950000.00, 0.00, '2025-12-30 02:24:14', 'berhasil'),
-(3, 3, 'qris', 1900000.00, 1900000.00, 0.00, '2025-12-30 02:24:14', 'berhasil');
+(1, 1, 'cash', 540000.00, 600000.00, 60000.00, '2025-12-30 02:33:29', 'berhasil'),
+(2, 2, 'transfer', 950000.00, 950000.00, 0.00, '2025-12-30 02:33:29', 'berhasil'),
+(3, 3, 'qris', 1900000.00, 1900000.00, 0.00, '2025-12-30 02:33:29', 'berhasil');
 
 -- --------------------------------------------------------
 
@@ -299,9 +299,9 @@ CREATE TABLE `penjualan` (
 --
 
 INSERT INTO `penjualan` (`id_nota`, `tgl_nota`, `id_pegawai`, `id_pelanggan`, `diskon_nota`, `status_nota`) VALUES
-(1, '2023-12-01 10:00:00', 1, 1, 0.00, 'dibayar'),
-(2, '2023-12-01 11:30:00', 2, 2, 0.00, 'dibayar'),
-(3, '2023-12-02 09:15:00', 1, 3, 0.00, 'dibayar');
+(1, '2025-12-01 10:00:00', 1, 1, 0.00, 'dibayar'),
+(2, '2025-12-01 11:30:00', 2, 2, 0.00, 'dibayar'),
+(3, '2025-12-02 09:15:00', 1, 3, 0.00, 'dibayar');
 
 -- --------------------------------------------------------
 
@@ -327,16 +327,16 @@ CREATE TABLE `produk` (
 --
 
 INSERT INTO `produk` (`id_produk`, `id_kategori`, `id_satuan`, `barcode`, `nama_produk`, `harga_jual`, `stok`, `stok_minimum`, `rak`, `status`) VALUES
-(1, 1, 1, '8994482712743', 'Semen Tiga Roda 50kg', 65000.00, 64, 10, 'Gudang-B1', 'aktif'),
-(2, 2, 2, '8992741107232', 'Cat Mowilex Emulsion White 5L', 215000.00, 46, 10, 'Gudang-D4', 'aktif'),
-(3, 3, 2, '8996373071880', 'Paku Beton 5cm (Per Kotak)', 35000.00, 70, 10, 'Gudang-F2', 'aktif'),
-(4, 4, 1, '8998302360480', 'Pipa PVC Rucika 1/2 Inch', 25000.00, 79, 10, 'Gudang-A5', 'aktif'),
-(5, 5, 4, '8999014205247', 'Keramik Arwana 40x40 Putih', 55000.00, 82, 10, 'Gudang-B2', 'aktif'),
-(6, 6, 2, '8998456610267', 'Besi Beton 10mm SNI', 85000.00, 61, 10, 'Gudang-C1', 'aktif'),
-(7, 7, 4, '8998901215548', 'Kayu Meranti 4x6 (Per Batang)', 45000.00, 94, 10, 'Gudang-C2', 'aktif'),
-(8, 8, 5, '8996631628747', 'Gypsum Jayaboard 9mm', 95000.00, 58, 10, 'Gudang-D5', 'aktif'),
-(9, 9, 4, '8991294106196', 'Seng Gelombang Gajah', 60000.00, 91, 10, 'Gudang-D5', 'aktif'),
-(10, 10, 4, '8997617256694', 'Tangki Air Profil Tank 500L', 950000.00, 39, 10, 'Gudang-D4', 'aktif');
+(1, 1, 4, '8993843774667', 'Semen Tiga Roda 50kg', 65000.00, 44, 10, 'Gudang-D1', 'aktif'),
+(2, 2, 2, '8991048477951', 'Cat Mowilex Emulsion White 5L', 215000.00, 21, 10, 'Gudang-F5', 'aktif'),
+(3, 3, 4, '8998189180685', 'Paku Beton 5cm (Per Kotak)', 35000.00, 28, 10, 'Gudang-E3', 'aktif'),
+(4, 4, 5, '8996724841494', 'Pipa PVC Rucika 1/2 Inch', 25000.00, 93, 10, 'Gudang-E2', 'aktif'),
+(5, 5, 1, '8998666156156', 'Keramik Arwana 40x40 Putih', 55000.00, 81, 10, 'Gudang-E3', 'aktif'),
+(6, 6, 5, '8998567153490', 'Besi Beton 10mm SNI', 85000.00, 75, 10, 'Gudang-F5', 'aktif'),
+(7, 7, 2, '8998187549856', 'Kayu Meranti 4x6 (Per Batang)', 45000.00, 93, 10, 'Gudang-C4', 'aktif'),
+(8, 8, 3, '8996693239012', 'Gypsum Jayaboard 9mm', 95000.00, 81, 10, 'Gudang-E2', 'aktif'),
+(9, 9, 4, '8999326808848', 'Seng Gelombang Gajah', 60000.00, 38, 10, 'Gudang-B4', 'aktif'),
+(10, 10, 4, '8998185706533', 'Tangki Air Profil Tank 500L', 950000.00, 31, 10, 'Gudang-E2', 'aktif');
 
 -- --------------------------------------------------------
 
@@ -414,7 +414,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('jZw5IuaOFlTrq1ZB0sDmnmuUMruaq3ebYEVOta18', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoiMUFabHZhUVhYajlUZXgzMjcyaXVINjJCQ0tkdnJrOUVUM3RTTExWNiI7czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czozOiJ1cmwiO2E6MDp7fXM6OToiX3ByZXZpb3VzIjthOjI6e3M6MzoidXJsIjtzOjI4OiJodHRwOi8vbG9jYWxob3N0OjgwMDAvcHJvZHVrIjtzOjU6InJvdXRlIjtzOjEyOiJwcm9kdWsuaW5kZXgiO31zOjUwOiJsb2dpbl93ZWJfNTliYTM2YWRkYzJiMmY5NDAxNTgwZjAxNGM3ZjU4ZWE0ZTMwOTg5ZCI7aToxO30=', 1767032861);
+('ZfK7JXGX1MTPiVQQLm2jAP0PDcPMOaK4J3O3BX2o', 1, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0', 'YTo1OntzOjY6Il90b2tlbiI7czo0MDoib1NZVURZSlJocTlWaTlDMWlrTWhNbDJqUFJYQUxXNjdjRzB3dzlyaSI7czozOiJ1cmwiO2E6MDp7fXM6OToiX3ByZXZpb3VzIjthOjI6e3M6MzoidXJsIjtzOjM5OiJodHRwOi8vbG9jYWxob3N0OjgwMDAvbGFwb3Jhbi9wZW5qdWFsYW4iO3M6NToicm91dGUiO3M6MTc6ImxhcG9yYW4ucGVuanVhbGFuIjt9czo2OiJfZmxhc2giO2E6Mjp7czozOiJvbGQiO2E6MDp7fXM6MzoibmV3IjthOjA6e319czo1MDoibG9naW5fd2ViXzU5YmEzNmFkZGMyYjJmOTQwMTU4MGYwMTRjN2Y1OGVhNGUzMDk4OWQiO2k6MTt9', 1767033249);
 
 -- --------------------------------------------------------
 
@@ -434,16 +434,16 @@ CREATE TABLE `supplier` (
 --
 
 INSERT INTO `supplier` (`id_supplier`, `nama_supplier`, `no_hp`, `kota`) VALUES
-(1, 'PT Catur Sentosa Adiprana', '081280874455', 'Jakarta'),
-(2, 'PT Surya Toto Indonesia', '081262512525', 'Tangerang'),
-(3, 'PT Indocement Tunggal Prakarsa', '081211710494', 'Bogor'),
-(4, 'PT Arwana Citramulia', '081285261248', 'Gresik'),
-(5, 'PT Mowilex Indonesia', '081271372139', 'Jakarta'),
-(6, 'PT Siam-Indo Gypsum', '081294260446', 'Bekasi'),
-(7, 'PT Bakrie Pipe Industries', '081269929173', 'Bekasi'),
-(8, 'PT Krakatau Steel', '081248816828', 'Cilegon'),
-(9, 'PT Semen Indonesia', '081210906974', 'Gresik'),
-(10, 'PT Djabesmen', '081233734095', 'Jakarta');
+(1, 'PT Catur Sentosa Adiprana', '081242839591', 'Jakarta'),
+(2, 'PT Surya Toto Indonesia', '081254796036', 'Tangerang'),
+(3, 'PT Indocement Tunggal Prakarsa', '081271409255', 'Bogor'),
+(4, 'PT Arwana Citramulia', '081231209384', 'Gresik'),
+(5, 'PT Mowilex Indonesia', '081231289085', 'Jakarta'),
+(6, 'PT Siam-Indo Gypsum', '081233936931', 'Bekasi'),
+(7, 'PT Bakrie Pipe Industries', '081214507930', 'Bekasi'),
+(8, 'PT Krakatau Steel', '081249334108', 'Cilegon'),
+(9, 'PT Semen Indonesia', '081263601337', 'Gresik'),
+(10, 'PT Djabesmen', '081283247091', 'Jakarta');
 
 -- --------------------------------------------------------
 
@@ -650,7 +650,7 @@ ALTER TABLE `penjualan`
 -- AUTO_INCREMENT for table `produk`
 --
 ALTER TABLE `produk`
-  MODIFY `id_produk` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id_produk` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `satuan`

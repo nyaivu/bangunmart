@@ -37,7 +37,7 @@
     </table>
 
     <div class="total">
-        Total Omset: Rp {{ number_format($total_omzet, 0, ',', '.') }}
+        Total Omzet: Rp {{ number_format($total_omzet, 0, ',', '.') }}
     </div>
 </body>
 </html>
