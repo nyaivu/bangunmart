@@ -17,6 +17,16 @@
             <p class="text-slate-500">Perbarui informasi produk: <span class="text-slate-900 font-semibold">{{ $produk->nama_produk }}</span></p>
         </div>
 
+        @if ($errors->any())
+            <div class="m-8 p-4 bg-red-50 border-l-4 border-red-500 text-red-700">
+                <ul class="list-disc list-inside text-sm">
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+
         <form action="{{ route('produk.update', $produk->id_produk) }}" method="POST" class="p-8">
             @csrf
             @method('PUT')
@@ -60,6 +70,32 @@
                     <label class="block text-sm font-bold text-slate-700 mb-2">Harga Jual (Rp)</label>
                     <input type="number" name="harga_jual" value="{{ old('harga_jual', $produk->harga_jual) }}" 
                            class="w-full px-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none transition-all" required>
+                </div>
+
+                <div class="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6 p-6 bg-blue-50/50 rounded-2xl border border-blue-100 mt-2">
+                    <div class="md:col-span-2">
+                        <h3 class="text-xs font-bold text-blue-800 uppercase tracking-widest">Informasi Supplier & Modal</h3>
+                    </div>
+                    
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2">Supplier Utama</label>
+                        <select name="id_supplier" class="w-full px-4 py-3 border border-slate-300 rounded-xl outline-none focus:ring-2 focus:ring-blue-500 bg-white" required>
+                            <option value="">-- Pilih Supplier --</option>
+                            @foreach($suppliers as $sup)
+                                <option value="{{ $sup->id_supplier }}" 
+                                    {{ (old('id_supplier', $produk->suppliers->first()->id_supplier ?? '')) == $sup->id_supplier ? 'selected' : '' }}>
+                                    {{ $sup->nama_supplier }}
+                                </option>
+                            @endforeach
+                        </select>
+                    </div>
+
+                    <div>
+                        <label class="block text-sm font-bold text-slate-700 mb-2">Harga Beli Terakhir (Modal)</label>
+                        <input type="number" name="harga_beli" 
+                               value="{{ old('harga_beli', $produk->suppliers->first()->pivot->harga_beli_terakhir ?? 0) }}" 
+                               class="w-full px-4 py-3 border border-slate-300 rounded-xl focus:ring-2 focus:ring-blue-500 outline-none" required>
+                    </div>
                 </div>
 
                 <div>

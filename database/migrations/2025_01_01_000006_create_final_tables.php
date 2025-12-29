@@ -19,13 +19,17 @@ return new class extends Migration {
         });
 
         Schema::create('produk_supplier', function (Blueprint $table) {
-            $table->unsignedBigInteger('id_produk');
-            $table->unsignedBigInteger('id_supplier');
-            $table->decimal('harga_beli_terakhir', 12, 2)->nullable();
+            $table->foreignId('id_produk')
+                ->constrained('produk', 'id_produk')
+                ->onDelete('cascade'); // Otomatis hapus data jika produk dihapus
+
+            $table->foreignId('id_supplier')
+                ->constrained('supplier', 'id_supplier')
+                ->onDelete('cascade'); // Otomatis hapus data jika supplier dihapus
+
+            $table->decimal('harga_beli_terakhir', 15, 2);
             
             $table->primary(['id_produk', 'id_supplier']);
-            $table->foreign('id_produk')->references('id_produk')->on('produk');
-            $table->foreign('id_supplier')->references('id_supplier')->on('supplier');
         });
     }
     public function down() {
